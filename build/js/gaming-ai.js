@@ -16,7 +16,7 @@ function init() {
 	
 	// character images
 	goodGuy = new Image();
-	goodGuy.src = "/build/img/student-1.png";
+	goodGuy.src = "build/img/student-1.png";
 	
 	badGuy = new Image();
 	badGuy.src = "build/img/mazur-1.png";
