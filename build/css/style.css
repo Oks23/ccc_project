@@ -1460,7 +1460,7 @@ body {
 /* game-labku start */
 CANVAS {
     border: 1px solid #000000;
-    background-image: url('/build/img/lpnu-1.jpg');
+    background-image: url('build/img/lpnu-1.jpg');
 }
 
 DIV.winner {
