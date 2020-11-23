@@ -108,7 +108,7 @@ window.onload = init;
  window.onscroll = function(ev) {
     if ((window.innerHeight + window.scrollY) <= document.body.offsetHeight) {
        document.getElementById("2").style.display = "none";
-       document.getElementById("1").style.display = "none";
+       document.getElementById("footer-mazur").style.display = "none";
     }
          if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
        console.log("bottom");
