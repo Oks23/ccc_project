@@ -893,7 +893,9 @@ body {
         width: 250px
     }
 }
-
+.about__main--img {
+padding-top: 30px;
+}
 @media screen and (max-width:400px) {
     .header__scroll {
         left: 25%
