@@ -150,6 +150,8 @@ btnAddSymbol.addEventListener('click', function() {
         input: vector,
         output: obj
     })
+        console.log(vector);
+    console.log(obj);
 });
 btnClearCanvas.addEventListener('click', d.clear);
 recognitionBtn.addEventListener('click', function () {
