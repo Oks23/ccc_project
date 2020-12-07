@@ -150,14 +150,20 @@ btnAddSymbol.addEventListener('click', function() {
         input: vector,
         output: obj
     })
-        console.log(vector);
+    console.log(vector);
     console.log(obj);
 });
+
 btnClearCanvas.addEventListener('click', d.clear);
 recognitionBtn.addEventListener('click', function () {
     net = new brain.NeuralNetwork();
     net.train(train_data, {log: true});
-
+console.log(train_data);
     const result = brain.likely(d.calculate(), net);
+    
+    console.log(net);
+    console.log(d.calculate());
+    console.log(result);
     alert(result);
 })
+
